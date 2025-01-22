@@ -639,8 +639,8 @@ input[type="checkbox"] {
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: #e5c29f;
-    width: 500px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 10%) 80%), url('https://images.pexels.com/photos/1749303/pexels-photo-1749303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    width: 750px;
     height: 400px;
 }
 .Text_lef {
@@ -649,8 +649,9 @@ input[type="checkbox"] {
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: #ff8000;
-    width: 500px;
+    background-position: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 10%) 80%), url('https://images.pexels.com/photos/2074130/pexels-photo-2074130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    width: 750px;
     height: 400px;
 }
 
