@@ -2,6 +2,7 @@
 body {
     font-family: 'Playfair Display', serif;
     font-family: "Clicker Script", cursive;
+    font-family: "Roboto Slab", serif;
 }
 /************** ฟอนต์ที่ใช้ **********************/
 
@@ -24,7 +25,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 p {
@@ -54,7 +55,6 @@ h1 {
     background-size: cover;
     background-position: center;
 }
-
 .container {
     justify-content: space-between;
     height: 50px;
@@ -63,12 +63,46 @@ h1 {
     display: flex;
     padding: 0 100px;
 }
-
+.underline_03 {
+    width: 20vh;
+    background-color: #e5c29f63;
+    height: 1px;
+}
+.Welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
 .material-symbols-outlined {
+    display: flex;
+    gap: 5px;
     font-size: 30px;
     color: #e5c29f;
 }
-
+.All_MOD {
+    display: flex;
+    align-items: center;
+}
+.MOD {
+    font-size: 18px;
+}
+.MOD_01 {
+    display: flex;
+    flex-direction: column;
+}
+.MOD_02 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.icon_Time {
+    margin-left: 20px;
+}
+.icon_location {
+    margin-right: 20px;
+}
 .icon_02 {
     font-size: 20px;
 }
@@ -293,14 +327,13 @@ input[type="checkbox"] {
     margin-top: 250px;
 }
 .Text_Dis {
-    font-family: "Clicker Script", cursive;
+    font-family: "Roboto Slab", cursive;
     font-size: 120px;
 }
 
 .Text_05 {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
     font-size: 30px;
     color: #e8e5e5f5;
     line-height: 1.6;
@@ -358,6 +391,18 @@ input[type="checkbox"] {
     background-color: #e5c29f;
     height: 1px;
 }
+
+.Icon_Coffee {
+    display: flex;
+    align-items: center;
+}
+.Icon_verified {
+    margin-right: 20px;
+    font-size: 50px;
+    background-color: #070705;
+    border-radius: 50%;
+    padding: 10px 10px;
+}
 .Coffee_Beabs {
     margin-top: 40px;
     display: flex;
@@ -365,7 +410,6 @@ input[type="checkbox"] {
     justify-content: space-between;
     height: 45vh;
 }
-
 .Text_Coffee_Beabs {
     margin-top: 15px;
     color: #a1a1a1;
@@ -432,6 +476,14 @@ input[type="checkbox"] {
 .img_01 {
     width: 280px;
     object-fit: cover;
+}
+.img_01:hover {
+    filter: brightness(50%);
+    transition: filter 0.5s ease;
+}
+.img_01 .text {
+    filter: brightness(50%);
+    transition: filter 0.5s ease;
 }
 /******************* ส่วนที่ 5 **************/
 .All_card_01 {

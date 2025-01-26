@@ -4,14 +4,26 @@
     <div class="All_01">
       <div class="container">
         <span class="material-symbols-outlined">
-          <p class="">Mod Coffee</p>
+          <div class="All_MOD">
+            <span class="material-symbols-outlined icon_location">
+              location_on
+            </span>
+            <div>
+              <p class="MOD">Mod Coffee</p>
+              <p class="MOD">zxczxczxcxczxcxz</p>
+            </div>
+          </div>
         </span>
         <span class="material-symbols-outlined">
           local_cafe
-          <p class="icon_02"></p>
+          <p class="">MOD</p>
         </span>
-        <span class="material-symbols-outlined">
-          <p class="">Mod Coffee</p>
+        <span class="All_MOD">
+          <div class="MOD_02">
+            <p class="MOD">Mod Coffee</p>
+            <p class="MOD">Mod Coffeecxzczxc</p>
+          </div>
+          <span class="material-symbols-outlined icon_Time"> schedule </span>
         </span>
       </div>
 
@@ -25,6 +37,7 @@
             <a class="a_1" href="#menu">MENU</a>
             <a class="a_1" href="#Promotion">PROMOTION</a>
             <a class="a_1" href="#INTRODUCTION">INTRODUCTION</a>
+            <a class="a_1" href="">SHOP</a>
             <a class="a_1" href="">SHOP</a>
           </div>
 
@@ -51,7 +64,11 @@
       <div class="Text_01">
         <h1 class="Text_001">
           <div class="Text_Dis">Coffee Home</div>
-          <p class="Text_05">Welcome<br /></p>
+          <div class="Welcome">
+            <div class="underline_03"></div>
+            <p class="Text_05">Welcome</p>
+            <div class="underline_03"></div>
+          </div>
           <div class="button_1-2">
             <button class="button_1">Menu</button>
           </div>
@@ -73,39 +90,54 @@
           <div class="underline_02"></div>
 
           <div class="Coffee_Beabs">
-            <div>
-              <h1>อราบิก้า vs โรบัสต้า</h1>
-              <p class="Text_Coffee_Beabs">
-                เม็ดกาแฟอราบิก้ามีรสชาติหวานและนุ่มนวล
-                ส่วนโรบัสต้าเข้มข้นและขมกว่า
-                <br />ร้านเราใช้เม็ดกาแฟอราบิก้าเพื่อรสชาติที่ดีและหอมมากขึ้น
-              </p>
+            <div class="Icon_Coffee">
+              <span class="material-symbols-outlined Icon_verified">
+                verified
+              </span>
+              <div>
+                <h1>อราบิก้า vs โรบัสต้า</h1>
+                <p class="Text_Coffee_Beabs">
+                  เม็ดกาแฟอราบิก้ามีรสชาติหวานและนุ่มนวล
+                  ส่วนโรบัสต้าเข้มข้นและขมกว่า
+                  <br />ร้านเราใช้เม็ดกาแฟอราบิก้าเพื่อรสชาติที่ดีและหอมมากขึ้น
+                </p>
+              </div>
             </div>
-
-            <div>
-              <h1>กระบวนการผลิตเม็ดกาแฟ</h1>
-              <p class="Text_Coffee_Beabs">
-                เม็ดกาแฟของเราผ่านการคั่วแบบกลางเพื่อรสชาติที่กลมกล่อม
-                <br />และคงความสดใหม่ในการชง.
-              </p>
+            
+            <div class="Icon_Coffee">
+              <span class="material-symbols-outlined Icon_verified">
+                verified
+              </span>
+              <div>
+                <h1>อราบิก้า vs โรบัสต้า</h1>
+                <p class="Text_Coffee_Beabs">
+                  เม็ดกาแฟอราบิก้ามีรสชาติหวานและนุ่มนวล
+                  ส่วนโรบัสต้าเข้มข้นและขมกว่า
+                  <br />ร้านเราใช้เม็ดกาแฟอราบิก้าเพื่อรสชาติที่ดีและหอมมากขึ้น
+                </p>
+              </div>
             </div>
-
-            <div>
-              <h1>การเก็บรักษาเม็ดกาแฟ</h1>
-              <p class="Text_Coffee_Beabs">
-                เม็ดกาแฟถูกเก็บในภาชนะที่ปิดสนิทเพื่อคงความสดใหม่
-                <br />และกลิ่นหอมจากการคั่ว
-              </p>
+            
+            <div class="Icon_Coffee">
+              <span class="material-symbols-outlined Icon_verified">
+                verified
+              </span>
+              <div>
+                <h1>อราบิก้า vs โรบัสต้า</h1>
+                <p class="Text_Coffee_Beabs">
+                  เม็ดกาแฟอราบิก้ามีรสชาติหวานและนุ่มนวล
+                  ส่วนโรบัสต้าเข้มข้นและขมกว่า
+                  <br />ร้านเราใช้เม็ดกาแฟอราบิก้าเพื่อรสชาติที่ดีและหอมมากขึ้น
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="All_img">
-          <img
-            class="image_01"
+          <img class="image_01"
             src="https://images.pexels.com/photos/3749174/pexels-photo-3749174.jpeg?auto=compress&cs=tinysrgb&w=3840&h=2160&dpr=1"
-            alt="Cafe Image"
-          />
+            alt="Cafe Image" />
           <div class="text-overlay_1">Coffee Moments</div>
           <div class="text-overlay">Every 10 Coffee is Free</div>
           <button class="text-overlay_2">Coffee Moments</button>
@@ -120,31 +152,21 @@
 
         <div class="All_card">
           <div class="">
-            <img
-              class="img_01"
+            <img class="img_01"
               src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=3840&h=2160&dpr=1"
-              alt=""
-            />
-            <img
-              class="img_01"
+              alt="" />
+            <img class="img_01"
               src="https://images.pexels.com/photos/2575830/pexels-photo-2575830.jpeg?auto=compress&cs=tinysrgb&w=3840&h=2160&dpr=1"
-              alt=""
-            />
-            <img
-              class="img_01"
+              alt="" />
+            <img class="img_01"
               src="https://images.pexels.com/photos/1813466/pexels-photo-1813466.jpeg?auto=compress&cs=tinysrgb&w=3840&h=2160&dpr=1"
-              alt=""
-            />
-            <img
-              class="img_01"
+              alt="" />
+            <img class="img_01"
               src="https://images.pexels.com/photos/1233535/pexels-photo-1233535.jpeg?auto=compress&cs=tinysrgb&w=3840&h=2160&dpr=1"
-              alt=""
-            />
-            <img
-              class="img_01"
+              alt="" />
+            <img class="img_01"
               src="https://images.pexels.com/photos/1235706/pexels-photo-1235706.jpeg?auto=compress&cs=tinysrgb&w=3840&h=2160&dpr=1"
-              alt=""
-            />
+              alt="" />
           </div>
         </div>
 
@@ -170,11 +192,9 @@
         </div>
 
         <div class="img_033">
-          <img
-            class="img_03"
+          <img class="img_03"
             src="https://images.pexels.com/photos/333523/pexels-photo-333523.jpeg?auto=compress&cs=tinysrgb&w=3840&h=2160&dpr=1"
-            alt=""
-          />
+            alt="" />
 
           <div class="BG_02">
             <div class="BG_03">
@@ -304,11 +324,7 @@
       <!-- Carousel Section -->
       <div class="All_slide">
         <Carousel v-bind="config">
-          <Slide
-            class="carousel-image_01"
-            v-for="image in images"
-            :key="image.id"
-          >
+          <Slide class="carousel-image_01" v-for="image in images" :key="image.id">
             <img class="carousel-image_02" :src="image.url" alt="image" />
           </Slide>
           <template #addons>
